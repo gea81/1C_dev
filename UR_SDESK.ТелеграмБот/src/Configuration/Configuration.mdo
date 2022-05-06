@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8cc8e4b9-582c-4b69-8ba9-e2cd6724308f">
+  <name>ТелеграмБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм бот</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4ecea5ec-9d25-4b88-a6e1-bfcd902db0f6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d013b830-0d98-4a33-9280-babbe949e3ab"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d8a76b6f-44e4-4130-896a-ea11dcf4734b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="93ff6833-802b-4acb-980a-804fac5aa904"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f11b21b1-42aa-427a-8bcf-a2c14b9de4ef"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e1fd831e-8d1a-4a92-a5b4-fdcf0bf488e2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="daeb3e4b-9ac7-4707-891e-7a06ffede34c"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>тг_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.1.1</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="c399d67c-ea58-4523-914c-2c7d77e8ecfa" extendedConfigurationObject="ed1506c0-ae10-45f0-b356-945bab8ed3fd">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.тг_ТелеграмБот</subsystems>
+  <commonPictures>CommonPicture.тг_ШрифтЖирный</commonPictures>
+  <commonPictures>CommonPicture.тг_ШрифтКурсив</commonPictures>
+  <commonPictures>CommonPicture.тг_ШрифтПодчеркнутый</commonPictures>
+  <commonPictures>CommonPicture.тг_ШрифтЗачеркнутый</commonPictures>
+  <commonPictures>CommonPicture.тг_ПиктограммыРеквизитов</commonPictures>
+  <commonPictures>CommonPicture.тг_ТекстКодовый</commonPictures>
+  <roles>Role.тг_ТелеграмБот</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.тг_Клиент</commonModules>
+  <commonModules>CommonModule.тг_ВызовСервера</commonModules>
+  <commonModules>CommonModule.тг_Сервер</commonModules>
+  <commonModules>CommonModule.тг_СерверПовтИсп</commonModules>
+  <httpServices>HTTPService.тг_Вебхук</httpServices>
+  <eventSubscriptions>EventSubscription.тг_ПриЗаписиДокумента</eventSubscriptions>
+  <catalogs>Catalog.тг_Объект</catalogs>
+  <catalogs>Catalog.тг_События</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <documents>Document.тг_Логи</documents>
+  <enums>Enum.тг_ТипыОбъектов</enums>
+  <dataProcessors>DataProcessor.тг_Настройки</dataProcessors>
+  <informationRegisters>InformationRegister.тг_ДоступныеТипыОбъектов1С</informationRegisters>
+</mdclass:Configuration>

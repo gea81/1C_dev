@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e096379e-bd57-452f-b15f-ef2d8358841a">
+  <name>тг_Вебхук</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вебхук</value>
+  </synonym>
+  <rootURL>tg</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="09f19e18-c63c-4126-9181-e0fa1d99b849">
+    <name>Основной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="23a36c73-53e1-4ca3-a2bf-18d03306dca7">
+      <name>МетодGET</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метод GET</value>
+      </synonym>
+      <handler>ОсновнойМетодGET</handler>
+    </methods>
+    <methods uuid="2107409a-c2b7-4722-9670-7f0f3e54e3b4">
+      <name>МетодPOST</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метод POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОсновнойМетодPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80ecb6e2-5791-4a97-9a98-926eef119dcb">
+  <producedTypes>
+    <objectType typeId="50dfc3c7-4813-4c43-a588-25235b2e4478" valueTypeId="ceeba531-2bd7-4305-93ff-5d587d836f56"/>
+    <refType typeId="25faa896-006f-46bb-bac6-bd2971ba8661" valueTypeId="6fa1e238-920c-49fd-ae33-c733c621f1e8"/>
+    <selectionType typeId="78036192-b777-4eb0-a528-9028365b86f0" valueTypeId="81ab4205-72ae-4705-8d3a-47d6906b0870"/>
+    <listType typeId="7b5a5ff4-cfa2-47ca-9a66-ec8d78e1dfdd" valueTypeId="ee46ee24-aa7b-4bff-aecb-c78f41b27871"/>
+    <managerType typeId="48946f18-9064-43f2-b6c5-8d9611b1a923" valueTypeId="e117a758-38e7-439d-ace9-99a179a27008"/>
+  </producedTypes>
+  <name>тг_Логи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.тг_Логи.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Логи</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Логи</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="bf11b858-60e8-4e5f-a833-12de02c8aa09">
+    <name>Тело</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тело</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a891e710-151e-4bf0-84e1-3b5e6967eab9">
+  <producedTypes>
+    <selectionType typeId="f3e9c2a0-617c-41eb-acea-bb4e73c53efb" valueTypeId="c7fc7e8c-473c-4727-ab1f-913ae8b25e00"/>
+    <listType typeId="7fc1307e-02b7-4125-b6be-ec12adf60fb9" valueTypeId="457d2e76-9ab5-404e-adaa-44830fb2bb5c"/>
+    <managerType typeId="62c8933a-a0c8-42d5-87b9-31e88630e484" valueTypeId="741e2bdf-563d-444f-ba85-88196a5eb6b6"/>
+    <recordSetType typeId="7ef646d8-f35a-430e-9a43-bc8bbbdb8dab" valueTypeId="ca87be4f-3282-4535-bbf5-cb9b1ac5d50f"/>
+    <recordKeyType typeId="38a7937f-ba3f-4889-add4-482c9b531be7" valueTypeId="6a41a50b-cc49-467d-9466-4eac6e00f700"/>
+    <recordType typeId="6760f8e4-b22a-49be-8024-7a9fa6e7975f" valueTypeId="ebd0f340-1923-4f4a-a2f5-eb5d6c038d4c"/>
+    <recordManagerType typeId="55e4b948-c2d3-41a6-aa01-5f877caf7414" valueTypeId="a5ca7120-a887-4284-a50f-155dd02b9843"/>
+  </producedTypes>
+  <name>тг_ДоступныеТипыОбъектов1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступные типы объектов1 С</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.тг_ДоступныеТипыОбъектов1С.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Доступный тип объекта 1С</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Доступные типы объектов 1С</value>
+  </listPresentation>
+  <dimensions uuid="a2145d8f-74a9-4cc1-87ba-8d22c134f7d9">
+    <name>ТипОбъекта1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта1 С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="dea0b88f-eba5-4b8d-a8eb-4eed48b3334d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

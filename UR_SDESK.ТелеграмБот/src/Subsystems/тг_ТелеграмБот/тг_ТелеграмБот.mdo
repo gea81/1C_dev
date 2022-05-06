@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d896602-c91f-4955-a21f-18447600685c">
+  <name>тг_ТелеграмБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм бот</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.тг_Настройки</content>
+  <content>CommonModule.тг_Клиент</content>
+  <content>CommonModule.тг_ВызовСервера</content>
+  <content>CommonModule.тг_Сервер</content>
+  <content>CommonModule.тг_СерверПовтИсп</content>
+  <content>EventSubscription.тг_ПриЗаписиДокумента</content>
+  <content>Role.тг_ТелеграмБот</content>
+  <content>HTTPService.тг_Вебхук</content>
+  <content>CommonPicture.тг_ШрифтЖирный</content>
+  <content>CommonPicture.тг_ШрифтКурсив</content>
+  <content>CommonPicture.тг_ШрифтПодчеркнутый</content>
+  <content>CommonPicture.тг_ШрифтЗачеркнутый</content>
+  <content>Catalog.тг_Объект</content>
+  <content>Catalog.тг_События</content>
+  <content>Catalog.ИдентификаторыОбъектовМетаданных</content>
+  <content>Catalog.ИдентификаторыОбъектовРасширений</content>
+  <content>Enum.тг_ТипыОбъектов</content>
+  <content>InformationRegister.тг_ДоступныеТипыОбъектов1С</content>
+</mdclass:Subsystem>

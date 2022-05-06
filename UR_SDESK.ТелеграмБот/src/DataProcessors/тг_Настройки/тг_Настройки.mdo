@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4405f6c7-1283-4dac-82f5-de0ee7e9dc4e">
+  <producedTypes>
+    <objectType typeId="2e8923e2-a037-4eaa-a3ef-cb3132546a71" valueTypeId="e90224c3-6699-4f20-8b97-dca25d5e3942"/>
+    <managerType typeId="6da5263b-f82f-4806-b112-c6e7548501b4" valueTypeId="5b6801ec-a087-47aa-9f3b-dcde5605d8fe"/>
+  </producedTypes>
+  <name>тг_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки Телеграм Бота</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.тг_Настройки.Form.Форма</defaultForm>
+  <forms uuid="1ab38627-e6dd-4096-a6db-63003a19dd27">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="aa1ad9db-1fd1-490f-bf97-a4db6935ff49">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки телеграм-бота</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>
