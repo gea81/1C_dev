@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1b69ba8-a470-408a-852f-1ea3bbcfdbea">
+  <producedTypes>
+    <objectType typeId="e8a52197-5427-4be9-a811-3acbe694e23d" valueTypeId="87733e35-e116-4c78-87cc-a689027d62dd"/>
+    <refType typeId="35aa3f01-7be5-42e9-9c07-3efba943d43f" valueTypeId="04af560f-b50a-4b39-ad9c-e1d8e8733d15"/>
+    <selectionType typeId="2e574fc5-b4ac-4499-a440-636b1f6def9a" valueTypeId="fbabf7ae-b7ed-4a7d-a0f1-a8a7de2e647a"/>
+    <listType typeId="1634a83f-9a12-4b47-b27c-bc828220c4d0" valueTypeId="a4ccb18f-7f8e-4971-b4f2-910b2f6d5982"/>
+    <managerType typeId="079c08a6-25c7-4a56-8d14-f438091a7769" valueTypeId="1c6bfa46-1ede-43d1-9d30-17bb769d10f7"/>
+  </producedTypes>
+  <name>тг_События</name>
+  <synonym>
+    <key>ru</key>
+    <value>События</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.тг_События.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.тг_События.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Событие объектов 1С</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>События объектов 1С</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.тг_События.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="da532e2c-4ebe-4379-9794-be4145518642">
+    <name>ТипОбъекта1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта1 С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="616848e0-2fc8-4f52-99cf-cfc1f37ff916">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.тг_Объект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Тип</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.тг_ТипыОбъектов.EnumValue.Бот</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2bdb9c3c-7fef-450b-b919-e2ff19a69ddf">
+    <name>Чат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.тг_Объект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="046c7f68-08a3-4685-b57a-4f05528d2f60">
+    <name>НастройкиОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки отбора</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5de5f16f-95cc-4a41-88b0-f7458c72aed7">
+    <name>ФорматированныйТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форматированный текст</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="50f20bde-0de7-4087-807d-617b4c1d57a8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

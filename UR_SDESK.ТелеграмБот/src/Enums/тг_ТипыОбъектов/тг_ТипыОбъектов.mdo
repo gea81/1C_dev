@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07cadbb0-efe9-4fb9-8d32-b8a4ec72f454">
+  <producedTypes>
+    <refType typeId="dc063cb4-c84d-4e13-accb-1bcc84b16126" valueTypeId="e2bd8a48-a776-4e6b-893e-fec8c41c47a3"/>
+    <listType typeId="0a5e6326-7107-4c78-b795-f7711f16efe9" valueTypeId="53cebf45-432e-47b6-b5e7-98f470c73597"/>
+    <managerType typeId="f30c362f-f5bf-4215-b5cb-ab7312f36c0d" valueTypeId="83f6c029-dafc-4724-8044-956aa8527644"/>
+  </producedTypes>
+  <name>тг_ТипыОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы объектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a8f946f6-f2d4-45e8-a516-d0bdfb259d23">
+    <name>Канал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Канал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b816992-632d-4f9c-ae7b-c8562c0f00b1">
+    <name>Группа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3f7a0efd-358b-4cde-95df-c9e32b1fb918">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b10f289e-22cb-45b4-bf0c-6cf3802c4c48">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bea25fda-5b34-4869-9178-b462c001481e">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="398a5c64-22c1-4d9e-9d38-0becbaf3a3e8">
+    <name>ГруппаКанала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа канала</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
