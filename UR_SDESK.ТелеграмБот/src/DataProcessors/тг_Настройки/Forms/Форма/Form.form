@@ -2278,26 +2278,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>Вебхук</name>
-    <title>
-      <key>ru</key>
-      <value>Вебхук</value>
-    </title>
-    <id>3</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>200</length>
-      </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>Логи</name>
     <title>
       <key>ru</key>
@@ -2313,6 +2293,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Логи.Ref</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <mainTable>Document.тг_Логи</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
@@ -2337,6 +2320,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ОбъектыЧаты.Ref</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <mainTable>Catalog.тг_Объект</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
@@ -2361,6 +2347,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>События.Ref</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <mainTable>Catalog.тг_События</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
@@ -2385,6 +2374,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ОбъектыБоты.Ref</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <mainTable>Catalog.тг_Объект</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
@@ -2409,6 +2401,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ОбъектыСообщения.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
 	тг_Объект.Ссылка КАК Ссылка,
@@ -2512,6 +2507,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>ОбъектыПользователи.Ref</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <mainTable>Catalog.тг_Объект</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
