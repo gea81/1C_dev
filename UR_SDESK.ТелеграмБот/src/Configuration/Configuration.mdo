@@ -10,7 +10,6 @@
     <defaultRunMode>Checked</defaultRunMode>
     <managedApplicationModule>Extended</managedApplicationModule>
     <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
-    <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
   </extension>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4ecea5ec-9d25-4b88-a6e1-bfcd902db0f6"/>
@@ -27,13 +26,11 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <scriptVariant>Russian</scriptVariant>
   <version>1.0.1.1</version>
-  <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <languages uuid="c399d67c-ea58-4523-914c-2c7d77e8ecfa" extendedConfigurationObject="ed1506c0-ae10-45f0-b356-945bab8ed3fd">
+  <languages uuid="c399d67c-ea58-4523-914c-2c7d77e8ecfa">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension">
-      <extendedConfigurationObject>Checked</extendedConfigurationObject>
       <languageCode>Checked</languageCode>
     </extension>
     <languageCode>ru</languageCode>

@@ -20,7 +20,7 @@
         <key>ru</key>
         <value>Метод GET</value>
       </synonym>
-      <handler>ОсновнойМетодGET</handler>
+      <handler>МетодТест</handler>
     </methods>
     <methods uuid="2107409a-c2b7-4722-9670-7f0f3e54e3b4">
       <name>МетодPOST</name>
@@ -29,7 +29,7 @@
         <value>Метод POST</value>
       </synonym>
       <httpMethod>POST</httpMethod>
-      <handler>ОсновнойМетодPOST</handler>
+      <handler>ОсновнойМетод</handler>
     </methods>
   </urlTemplates>
 </mdclass:HTTPService>
