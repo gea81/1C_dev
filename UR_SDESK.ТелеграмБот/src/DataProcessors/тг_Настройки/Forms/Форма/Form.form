@@ -2258,26 +2258,6 @@
     <main>true</main>
   </attributes>
   <attributes>
-    <name>Токен</name>
-    <title>
-      <key>ru</key>
-      <value>Токен</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>Логи</name>
     <title>
       <key>ru</key>
